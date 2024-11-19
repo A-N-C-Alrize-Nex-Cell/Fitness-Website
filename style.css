@@ -1,0 +1,219 @@
+body {
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  header {
+    height: 150px;
+    padding: 10px 40px;
+    background-color: #222;
+    color: #fff;
+    background-image: url("./images/bodybuilder-training-arm-with-resistance-band.jpg");
+    background-size: cover;
+    background-position: 0 25%;
+    padding: 10px;
+    filter: brightness(90%);
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  h1,h2,p {
+    text-align: center;
+    color: white;
+  }
+  .buttons { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    /* height: 100vh; */
+  } 
+  .btn { 
+    display: inline-block;
+    padding: 0.75rem 1.5rem; 
+    font-size: 1rem; 
+    color: #fff; 
+    background-color: #556266; 
+    border: none; 
+    text-align: center;
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    text-decoration: none;
+    margin-left: 1.25rem;
+  } 
+  .view-more { 
+    background-color: #222; 
+    color: #fff; 
+   } 
+   .arrow { 
+    margin-left: 0.5rem; 
+    font-size: 14px; 
+    transition: transform 0.3s ease; 
+   }
+   .view-more:hover { 
+    background-color: #556266;
+    transform: translateY(-2px);
+    
+   }
+   .view-more:hover .arrow { 
+    transform: translateX(5px); 
+   }
+   .book-now { 
+    background-color: #c42222; 
+    color: #fff; 
+  }
+   .book-now:hover { 
+    background-color: #ce5016; 
+    transform: translateY(-2px); 
+  }
+  .book-now:hover .arrow { 
+    transform: translateX(5px); 
+   }
+  h3 {
+      position: relative; 
+      top: 50%;
+      z-index: 2;
+  }
+  
+  .main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; 
+}
+ 
+  .container {
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center;
+  }
+  
+  .gallery-item {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0px;
+    width: 300px;
+    background-color: #f2f2f2;
+    position: relative;
+    height: 400px;
+    border-radius: 100px;
+    transition: transform 0.3s ease-in-out;
+  }
+  /* .main:hover { 
+    background-color: #222;
+    transform: scale(1.05);
+  } */
+  /* .main:hover .gallery-item { 
+    transform: translateY(-10px); 
+  }  */
+img { 
+      width: 100%; 
+      height: 100%; 
+      object-fit: cover;
+      position: absolute;
+      transition: opacity 0.3s ease-in-out; 
+  }
+  .gallery-item img {
+    top: 0;
+    left: 0;
+    border-radius: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(255, 255, 255, 0.12) 0px -12px 30px,
+      rgba(255, 255, 255, 0.12) 0px 4px 6px,
+      rgba(255, 255, 255, 0.17) 0px 12px 13px,
+      rgba(255, 255, 255, 0.09) 0px -3px 5px;
+  }
+  /* .main:hover .gallery-item img { 
+    transform: scale(1.1);
+  } */
+  .gallery-item:hover img { 
+    transform: scale(1.1); 
+  }
+  
+  .gallery-item h3 {
+    font-size: 22px;
+    color: lightblue;
+    margin-bottom: 1rem; 
+    transition: color 0.3s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .gallery-item:hover h3 { 
+    display: none; 
+  }
+  /* Footer Styles */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+}
+
+.footer-section h2 {
+    margin-bottom: 20px;
+}
+
+.footer-section p, .footer-section ul {
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    background: #222;
+    color: #bbb;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+}
